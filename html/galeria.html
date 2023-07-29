@@ -6,21 +6,47 @@
         <title>Argentina Campeon</title>
         <link rel="stylesheet" href="../style.css">
         <link rel="shortcut icon" href="../img/Copa.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     </head>
 <body>
-    <header>
-        <h1><a href="/Primera Pre-Entrega/index.html">Argentina Campeon Del Mundo</a></h1>
-        </a>
-
-        <nav>
-            <ul class="navLink">
-                <li><a href="partidos.html" class="boton">Partidos</a></li>
-                <li><a href="jugadores.html" class="boton">Jugadores</a></li>
-                <li><a href="qatar.html" class="boton">Qatar</a></li>
-                <li><a href="galeria.html" class="boton">Galeria</a></li>
+    <style>
+        .bg-azul{
+            background-color: rgb(37, 142, 228);
+        }
+        nav {
+            font-size: 25px;
+        }
+        .card {
+            background-color: rgb(43, 122, 226);
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg bg-azul">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/partidos.html">Partidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/jugadores.html">Jugadores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/qatar.html">Qatar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/galeria.html">Galeria</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </nav>der>
 
     <main>
         <h1>Fotos De Argentina </h1>
@@ -42,8 +68,13 @@
 
     </main>
 
-    <footer>
-        Informacion sacada de <a href="https://www.infobae.com/deportes/2022/12/18/argentina-campeon-del-mundial-de-qatar-2022/" target="_blank">Infobae</a>
-    </footer>
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Informacion obtenida de Infobae</h5>
+          
+          <a href="https://www.infobae.com/deportes/2022/12/18/argentina-campeon-del-mundial-de-qatar-2022/" target="_blank" class="btn btn-primary">Ir a Infobae</a>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
