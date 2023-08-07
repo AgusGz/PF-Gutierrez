@@ -10,20 +10,20 @@ h1 {
   justify-content: center;
 }
 
-.imgLeo {
-  height: 600px;
-  width: 1000px;
+.imgLeo{
+  max-width: 100%;
+  height: auto;
 }
 
 .inicio {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 150%;
+  font-size: 1rem;
 }
 
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-size: 250%;
+  font-size: 1rem;
 }
 
 figure {
@@ -46,15 +46,6 @@ figcaption {
   font-weight: bold;
   font-size: 20px;
   text-transform: uppercase;
-}
-
-footer {
-  color: #fafafa;
-  background-color: #000000;
-}
-footer a {
-  text-transform: lowercase;
-  font-size: medium;
 }
 
 .jugadores {
